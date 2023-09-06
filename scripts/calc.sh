@@ -10,3 +10,20 @@
 # -----------------------------------
 clear
 
+# -----------------------------------
+
+num1=$1
+num2=$2
+
+# -----------------------------------
+
+if [ -z $num1 -o -z $num2 ]
+then
+  echo "❗Argumentos insuficientes"
+  echo "❗Abortando"
+  exit 1
+else
+  echo "TESTE"
+fi
+
+
