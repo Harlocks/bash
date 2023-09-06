@@ -38,19 +38,21 @@ read -p "Opção -> " opcao_1
 echo "------------------------------------"
 
 case "$opcao_1" in
-  1) 
+  1) # ADIÇÃO
     clear
     echo "------------------------------------"
     echo "✅ $num1 + $num2 = $(expr $num1 \+ $num2)"
     echo "------------------------------------"
     ;;
-  2)
+
+  2) # SUBTRAÇÃO
     clear
     echo "------------------------------------"
     echo "✅ $num1 - $num2 = $(expr $num1 \- $num2)"
     echo "------------------------------------"
     ;;
-  3)
+
+  3) # MULTIPLICAÇÃO
     clear
     if [ $num1 -eq 0 -o $num2 -eq 0 ]
     then
@@ -64,7 +66,7 @@ case "$opcao_1" in
     fi
     ;;
 
-  4)
+  4) # DIVISÃO
     clear
     if [ $num1 -eq 0 -o $num2 -eq 0 ]
     then
@@ -75,6 +77,15 @@ case "$opcao_1" in
       echo "------------------------------------"
       echo "✅ $num1 / $num2 = $(expr $num1 / $num2)"
       echo "------------------------------------"
+      resto=$(expr $num1 \% $num2)
+      if [ $resto -eq 0 ]
+      then
+        echo "Divisão Exata"
+        echo "------------------------------------"
+      else
+        echo "Divisão com resto: $resto"
+        echo "------------------------------------"
+      fi
     fi
     ;;
 esac
