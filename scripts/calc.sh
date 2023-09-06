@@ -22,8 +22,6 @@ then
   echo "❗Argumentos insuficientes"
   echo "❗Abortando"
   exit 1
-else
-  echo "TESTE"
 fi
 
 
