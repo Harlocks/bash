@@ -1,0 +1,6 @@
+./
+./calc.sh
+./test.sh
+./generateBackup.sh
+./logs.txt
+./error-logs.txt
