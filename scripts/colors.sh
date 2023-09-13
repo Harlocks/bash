@@ -6,7 +6,8 @@
 # -----------------------------------
 # Data  : 06/09/2023
 # -----------------------------------
-# Script básico para fazer cálculos
+# Script básico que armazena todas
+# as cores que o shell suporta.
 # -----------------------------------
 clear
 

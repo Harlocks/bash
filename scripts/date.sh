@@ -6,18 +6,26 @@
 # -----------------------------------
 # Data  : 06/09/2023
 # -----------------------------------
-# Script básico para fazer cálculos
+# Script básico que mostra o último arquivo 
+# modificado dentro do período de 7 dias.
 # -----------------------------------
 clear
 
 # ----------------------- IMPORTS ---------------------------
 . ./colors.sh
 
+
 # ----------------------- VALUES ----------------------------
+folder_prune=("$HOME/.*" "$HOME/Backups/")
+folder_find=$HOME/Documentos/
+last_file=$(find $folder_find -type f -mtime -7 -exec basename {} \; |awk -F/ '{print $NF}' |head -n1)
 
-last_file=$(find $HOME/Documentos/ -type f -mtime -7 -exec basename {} \; |awk -F/ '{print $NF}' |head -n1)
 # ----------------------- WELCOME ---------------------------
+echo -e "------------------------------------------------------"
+echo -e "⌛ Arquivo modificado nos últimos 7 dias: $f_green$last_file$c_reset"
+echo -e "📁 Pasta da pesquisa: $folder_find "
+echo -e "📁 Diretórios excluídos: "
+echo -e "------------------------------------------------------"
 
-echo -e "------------------------------------------------------"
-echo -e "⌛ Arquivo modificado nos últimos 7 dias: $f_red$last_file$c_reset"
-echo -e "------------------------------------------------------"
+
+
