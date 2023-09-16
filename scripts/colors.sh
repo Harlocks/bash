@@ -28,3 +28,5 @@ f_blue="\e[34"
 f_magenta="\e[35"
 f_cyan="\e[36"
 f_white="\e[37"
+
+# -teste
