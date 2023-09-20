@@ -14,8 +14,8 @@ clear
 # -----------------------------------
 
 read -p "Digite o nome do arquivo -> " ARQUIVO
-read -p "Digite o tipo de arquivo[txt, sh]: " TIPO
-read -p "Digite até que quantidade deseja gerar: " QUANTIDADE
+read -p "Digite o tipo de arquivo[txt, sh] -> " TIPO
+read -p "Digite até que quantidade deseja gerar -> " QUANTIDADE
 
 for qt in $(seq 1 $QUANTIDADE)
 do
