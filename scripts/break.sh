@@ -11,4 +11,3 @@ do
 	fi
 	echo "Fruta: $var"
 done
-
