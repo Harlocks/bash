@@ -6,8 +6,7 @@
 # -----------------------------------
 # Data    : 29/09/2023
 # -----------------------------------
-# Script que extrai informações mais
-# aprofundadas sobre os usuários
+# Script que extrai os usuários reais da máquina
 # -----------------------------------
 source /etc/login.defs 2> /dev/null
 
