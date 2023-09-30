@@ -11,9 +11,13 @@
 clear
 
 # -----------------------------------
+
+h_UID=$(cat /etc/passwd |cut -d":" -f3)
+
 for teste in $h_UID
 do
     if test $teste -ge 1000 -a $teste -le 60000; then
+
     x_user=$(grep $teste /etc/passwd |cut -d":" -f1)
     x_UID=$(grep $teste /etc/passwd |cut -d":" -f3)
     x_home=$(grep $teste /etc/passwd |cut -d":" -f6)
