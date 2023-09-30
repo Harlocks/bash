@@ -46,5 +46,3 @@ b_blue="\e[44m"
 b_magenta="\e[45m"
 b_cyan="\e[46m"
 b_white="\e[47m"
-
-

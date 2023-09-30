@@ -14,7 +14,6 @@ clear
 # ----------------------- IMPORTS ---------------------------
 . ./colors.sh
 
-
 # ----------------------- VALUES ----------------------------
 folder_prune=("$HOME/.*" "$HOME/Backups/")
 folder_find=$HOME/Documentos/

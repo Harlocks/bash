@@ -1,7 +1,6 @@
 #!/bin/bash
 
-
-if test $# -eq 0
+if test $# -le 0
 then
 	"Quantidade de parâmetros insuficientes"
 	"Abortando..."

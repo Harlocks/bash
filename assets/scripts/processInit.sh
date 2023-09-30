@@ -10,5 +10,3 @@ done
 clear
 echo "✅ Navegador Chromium iniciado"
 echo "PID $(pgrep chromium)"
-
-

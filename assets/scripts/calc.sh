@@ -89,4 +89,3 @@ case "$opcao_1" in
     fi
     ;;
 esac
-

@@ -66,7 +66,6 @@ else
   echo "⌛ Continuando com backup..."
 fi
 
-
 # -----------------------------------
 
 tar -cvzf $back_name . > logs.txt 2> error-logs.txt
