@@ -11,3 +11,12 @@
 # com uma extensão desejada.
 # ----------------------------------------
 clear
+
+busca=$( find /home/* -name '*.mp3' -o -name '*.mp4' -o -name '*.jpg' -o -name '*.png')
+mp3=$( $busca |grep "*.*.mp3" |wc -l )
+
+echo "-----------------------------"
+for arquivos in $busca; do
+    echo "Arquivos .MP3: $mp3"
+done
+
