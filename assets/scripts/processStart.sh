@@ -21,7 +21,7 @@ if test $# -le 0; then
     exit 1
 fi
 
-until $( ps axu |grep $1 |grep -v grep > /dev/null )
+until $( ps axu |grep "$1" |grep -v grep > /dev/null )
 do
     echo "⏳ Abra o $1"
     sleep 2
@@ -30,4 +30,4 @@ done
 clear
 
 echo -e "✅ $1 Iniciado..."
-echo -e "✅ PID: $(pgrep $1)"
+echo -e "✅ PID: $(pgrep "$1")"
