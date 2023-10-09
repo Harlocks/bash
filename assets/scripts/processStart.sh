@@ -23,7 +23,7 @@ if test $# -le 0; then
 fi
 # ----------------------------------------
 
-until $(ps axu |grep $1 |grep -v grep > /dev/null)
+until $( ps axu |grep $1 |grep -v grep > /dev/null )
 do
     echo "⏳ Abra o $1"
     sleep 2
