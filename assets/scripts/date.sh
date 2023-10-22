@@ -25,6 +25,3 @@ echo -e "⌛ Arquivo modificado nos últimos 7 dias: $f_green$last_file$c_reset"
 echo -e "📁 Pasta da pesquisa: $folder_find "
 echo -e "📁 Diretórios excluídos: "
 echo -e "------------------------------------------------------"
-
-
-
