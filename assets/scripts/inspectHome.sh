@@ -23,7 +23,9 @@ fi
 HOME=$1
 
 if ! test -d "$HOME"; then
+    echo "----------------------------------------"
     echo "Usuário ou diretório não existe!"
+    echo "----------------------------------------"
     exit 1
 fi
 
@@ -48,4 +50,3 @@ do
     echo "Arquivos MP4: $teste2"
 done
 echo "----------------------------------------"
-
