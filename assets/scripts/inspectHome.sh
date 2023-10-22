@@ -50,4 +50,3 @@ do
     echo "Arquivos MP4: $teste2"
 done
 echo "----------------------------------------"
-
