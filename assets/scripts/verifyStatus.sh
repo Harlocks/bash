@@ -6,8 +6,9 @@
 # -----------------------------------
 # Data    : 26/10/2023
 # -----------------------------------
-# Script verifica a conexão de um determinado site
-# IP or Domain
+# Script que verifica o status de um site.
+# Há a possibilidade de implementações,
+# deixando a saída com mais detalhes.
 # -----------------------------------
 clear
 
