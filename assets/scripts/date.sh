@@ -12,7 +12,7 @@
 clear
 
 # ----------------------- IMPORTS ---------------------------
-. ./colors.sh
+. ./libs/colors.sh
 
 # ----------------------- VALUES ----------------------------
 folder_prune=("$HOME/.*" "$HOME/Backups/")
