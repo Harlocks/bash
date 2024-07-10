@@ -1,0 +1,22 @@
+Arquivo com nome de alunos aleatórios
+
+1. Ana Silva
+2. Bruno	Almeida
+3. Carla Santos
+4. Daniel    Costa
+5. Elisa Ferreira
+6. Felipe	Oliveira
+7. Gabriela Souza
+8. Henrique   Rodrigues
+9. Isabela Lima
+10. João	Pereira
+11. Karina  Ribeiro
+12. Lucas Mendes
+13. Mariana Araújo
+14. Natan	Fonseca
+15. Olivia Cardoso
+16. Pedro	Martins
+17. Quenia   Gomes
+18. Rafael Monteiro
+19. Sabrina	Batista
+20. Thiago  Neves
